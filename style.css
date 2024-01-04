@@ -6,7 +6,34 @@
     background-image: url(/images/c.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100vh;  
+    
+}
+.head2 h2{
+    color: rgb(19, 117, 117);
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 0.5em;
+    padding: 20px;
+    
+    background: linear-gradient(rgba(13, 141, 113, 0.288), rgba(255, 192, 203, 0.473));
 
+}
+
+.blog{
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+    position: absolute;
+    top: 40%;
+    
+    
+}
+.sub-blog{
+    border-left: 10px solid tomato;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(rgba(59, 59, 218, 0.356),rgb(46, 231, 46));
+    color: rebeccapurple;
     
 }
